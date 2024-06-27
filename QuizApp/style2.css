@@ -1,0 +1,162 @@
+body{
+    background: #047857;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: #047857;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li{
+    list-style: none;
+    font-size: 30px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+h5{
+    font-size: 40px;
+}
+#firstButton{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    background: #eab308;
+    border: 3px solid #eab308;
+    color: #047857;
+    font-weight: 600;
+    border-radius: 12px;
+}
+#firstButton:hover{
+    cursor: pointer;
+    background: #047857;
+    color: #eab308;
+}
+span{
+    color: #eab308;
+}
+/* section*/
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #047857;
+    display: none;
+}
+#SectionNumber1{
+    min-height: 100vh;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#Section1Button{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    background: #eab308;
+    border: 3px solid #eab308;
+    color: #047857;
+    font-weight: 600;
+    border-radius: 12px;
+}
+#Section1Button:hover{
+    cursor: pointer;
+    background: #047857;
+    color: #eab308;
+}
+#Section2Button{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    background: #eab308;
+    border: 3px solid #eab308;
+    color: #047857;
+    font-weight: 600;
+    border-radius: 12px;
+}
+#Section2Button:hover{
+    cursor: pointer;
+    background: #047857;
+    color: #eab308;
+}
+#SectionNumber2{
+    
+    min-height: 100vh;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+#Section3Button{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    background: #eab308;
+    border: 3px solid #eab308;
+    color: #047857;
+    font-weight: 600;
+    border-radius: 12px;
+}
+#Section3Button:hover{
+    cursor: pointer;
+    background: #047857;
+    color: #eab308;
+}
+#SectionNumber3{
+    
+    /* min-height: 100vh; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+ }
+/* from dom*/
+#demo1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+input{
+    cursor: pointer;
+}
+#demo2{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+#demo3{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+#place3{
+    margin-top: 10px;
+}
